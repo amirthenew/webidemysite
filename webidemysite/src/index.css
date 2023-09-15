@@ -2,5 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 body{
-  background-color:#212121;
+direction:rtl;
+  font-family: Yekan;
 }
+
+@font-face {
+  font-family: Yekan;
+  src: url("../../src/assets/fonts/yekan/Yekan.woff2")
+
+  ;
+  }
