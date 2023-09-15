@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Header from './components/Header'
+import Banner from './components/Banner'
 import './App.css'
 
 function App() {
@@ -8,13 +9,7 @@ function App() {
   return (
     <div>
     <Header/>
-    <div className='flex bg-white h-screen'>
-
-
-      
-
-
-    </div>
+  <Banner/>
     
     </div>
 

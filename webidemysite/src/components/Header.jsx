@@ -4,10 +4,10 @@ const Header = () => {
     return (
 
         <div className='flex  w-full p-3   bg-darkcolor'> 
-        <div className='flex w-full justify-around'>
+        <div className='flex w-full justify-between'>
         
 <div>
-<img className=' w-10 m-3' src='../../src/assets/images/WEBIDEMI.png'/>
+<img className=' w-14 ' src='../../src/assets/images/WEBIDEMI.png'/>
 </div>
         <div>
         <ul className='flex py-5  px-1  text-webidemy'>
@@ -19,7 +19,7 @@ const Header = () => {
         </ul>
         </div>
         <div>
-        <button className='p-4 text-zinc-900 rounded-full bg-webidemy'>
+        <button className=' p-2 w-28 rounded-full bg-webidemy'>
         ثبت نام
         </button>
         </div>
