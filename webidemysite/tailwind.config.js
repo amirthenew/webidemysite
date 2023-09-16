@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require('tailwindcss/colors')
+
 export default {
   content: [
     "./index.html",
@@ -6,7 +8,7 @@ export default {
   ],
   theme: {
 
-    colors:{
+    colors:{...colors,
     'darkcolor' : '#212121',
     'webidemy' : '#fea300'
     },

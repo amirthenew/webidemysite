@@ -10,7 +10,7 @@ const Header = () => {
 <img className=' w-14 ' src='../../src/assets/images/WEBIDEMI.png'/>
 </div>
         <div>
-        <ul className='flex py-5  px-1  text-webidemy'>
+        <ul className='flex py-5 px-1  text-webidemy'>
         <li className='px-2'>صفحه اصلی</li>
         <li className='px-2'>تماس با ما</li>
         <li className='px-2'>دوره ها</li>
